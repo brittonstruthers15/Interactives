@@ -67,6 +67,14 @@ footer {
 .intro h2 {
     font-size: 2em;
     color: #ff7f9e;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.9em;
+    color: #000000;
+    margin-top: 5%;
+    text-align: center;
 }
 
 .intro p {
@@ -78,7 +86,15 @@ footer {
     color: #555;
     font-size: 1.2em;
     line-height: 1.6;
+    text-align: center;
+    margin: 7%;
 }
+img {
+    margin: auto;
+    margin-top: 5%;
+    display: block;
+    width: 55%;
+  }
 
 /* Portfolio Page */
 .portfolio-content {

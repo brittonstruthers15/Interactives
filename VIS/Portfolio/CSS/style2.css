@@ -1,0 +1,86 @@
+       /*desktop*/
+#content {
+    width: 75%;
+    margin: auto;
+    line-height: 1.5em;
+    font-size: 1.5em;
+    font-family: "avenir next", "helvetica neue", "helvetica", "sans-serif";
+}
+       body {
+            font-family: 'Avenir', sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #a3bead;
+            color: rgb(0, 0, 0);
+            padding: 30px 20px;
+            text-align: center;
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+        }
+        h1 {
+            font-size: 2.17em;
+             color: #000000;
+             font-family: Avenir Black;
+             margin-top: 5%;
+            line-height: 0.8;
+        }
+        p {
+            font-size: 1.2em;
+            font-weight: 300;
+        }
+        .portfolio {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+            gap: 20px;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        .clipping {
+            background-color: white;
+            border-radius: 15px;
+            padding: 20px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .clipping:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+        }
+        .clipping img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .clipping h2 {
+            font-size: 1.5em;
+            color: #333;
+            margin-top: 15px;
+            font-weight: 500;
+        }
+        .clipping p {
+            font-size: 0.8em;
+            color: #777;
+            margin-top: 10px;
+            line-height: 1.6;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #ff7f50;
+            color: white;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+            margin-top: 30px;
+        }
+        /*phone*/
+@media (orientation: portrait) {
+    #content {
+        width: 100%;
+        line-height: 1.5em;
+        font-size: 1.5em;
+    }
+    
+}
