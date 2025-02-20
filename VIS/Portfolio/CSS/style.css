@@ -1,0 +1,71 @@
+/*desktop*/
+#content {
+    width: 75%;
+    margin: auto;
+    line-height: 1.5em;
+    font-size: 1.5em;
+    font-family: "avenir next", "helvetica neue", "helvetica", "sans-serif";
+}
+body {
+    padding-left: 5%;
+    padding-right:5%;
+    background-color: #ffffff;
+    text-align: left;
+  }
+  h1 {
+    font-size: 2.17em;
+    color: #000000;
+    font-family: Avenir Black;
+    margin-top: 5%;
+    line-height: 0.8;
+    text-align: center;
+  }
+  h2 {
+    font-size: 1.5em;
+    color: #000000;
+    font-family: Avenir Black;
+    margin-top: 5%;
+    line-height: 0.8;
+    text-align: center;
+  }
+
+/*phone*/
+@media (orientation: portrait) {
+    #content {
+        width: 100%;
+        line-height: 1.5em;
+        font-size: 1.5em;
+    }
+    
+}
+
+#nav-bar {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+}
+
+.nav-button {
+    margin: auto;
+}
+
+.nav-button a {
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    font-weight: bold;
+}
+
+.img-container {
+    width: 100%;
+
+  }
+  
+  img {
+    margin: auto;
+    display: block;
+    width: 75%;
+  }
+
+div {border: 1px red solid;}
+
